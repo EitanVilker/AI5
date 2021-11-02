@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     sat = SAT(sys.argv[1])
 
-    result = sat.main("GSAT")
+    result = sat.main("WalkSAT")
 
     if result:
         sat.write_solution()
